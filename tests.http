@@ -1,0 +1,16 @@
+GET /api/test HTTP/1.1
+Host: localhost:8080
+
+###
+
+POST  /api/products HTTP/1.1
+Host: localhost:8080
+
+{
+    "product": "car"
+}
+
+###
+
+GET  /wait HTTP/1.1
+Host: localhost:8080

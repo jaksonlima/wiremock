@@ -1,0 +1,14 @@
+{
+  "request": {
+    "url": "/wait",
+    "method": "GET"
+  },
+  "response": {
+    "status": "200",
+    "body": "Hello World",
+    "headers": {
+      "Content-Type": "text/plain"
+    },
+    "fixedDelayMilliseconds": 3000
+  }
+}
